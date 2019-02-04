@@ -3,6 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Circle test = new Circle("red", true, 4);
+
+        test.printShape();
+
     }
 }
